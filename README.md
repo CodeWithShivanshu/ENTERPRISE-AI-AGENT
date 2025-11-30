@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="agent.png" width="60%" />
+  <img src="agent.png" width="70%" />
 </p>
 
 <h1 align="center">⚡ ENTERPRISE SUPER AGENT ⚡</h1>
@@ -62,6 +62,47 @@ Includes:
 ✔ Custom enterprise tools  
 
 ---
+## 📦 Installation
 
-## 🧩 Architecture (Simplified)
+```bash
+git clone https://github.com/CodeWithShivanshu/ENTERPRISE-AI-AGENT.git
+cd agents
+```
+## Run
+```run
+adk web 
+```
+
+## ⚙️ Enterprise AI Agent Architecture (Simplified)
+```architecture
+--------------------------------------------
+|           USER INTERFACE (UI)            |
+|   Chat, Dashboard, API Endpoint   |
+--------------------------------------------
+                 |
+                 v
+--------------------------------------------
+|        CONTEXT + MEMORY LAYER            |
+| Session memory, user profile, embeddings |
+--------------------------------------------
+                 |
+                 v
+--------------------------------------------
+|        INTENT ROUTER (Brain)             |
+| workflow / analytics / support / general |
+--------------------------------------------
+          /         |         \
+         v          v          v
+--------------------------------------------
+|   WORKFLOW     ANALYTICS     SUPPORT     |
+|    ENGINE        ENGINE        ENGINE    |
+--------------------------------------------
+      |             |            |
+      v             v            v
+--------------------------------------------
+|         TOOLS / ACTION MODULE           |
+|  google_search, email, APIs, tasks  |
+--------------------------------------------
+
+```
 
